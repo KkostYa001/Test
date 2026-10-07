@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>TIDES</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="ocean"></canvas>
+
+    <div class="ui">
+
+        <div class="ui-top">
+
+            <div class="label">
+                ◑ &nbsp;T I D E S
+            </div>
+
+            <div class="mood">
+                <span id="mood-name">GOLDEN HOUR</span>
+                <span class="mood-time" id="mood-time">19:12</span>
+            </div>
+
+        </div>
+
+
+        <div class="ui-bottom">
+
+            <p class="caption">
+                Same sea — <em>every hour a different blue.</em>
+            </p>
+
+            <div class="slider-wrap">
+
+                <span class="slider-end">DAWN</span>
+
+                <input
+                    type="range"
+                    id="time"
+                    min="0"
+                    max="1000"
+                    value="600"
+                >
+
+                <span class="slider-end">NIGHT</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
